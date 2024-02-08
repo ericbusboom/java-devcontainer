@@ -9,11 +9,10 @@
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "none",
-			"installMaven": "${templateOption:installMaven}",
-			"installGradle": "${templateOption:installGradle}"
+			"installMaven": "false",
+			"installGradle": "false"
 		},
 		"ghcr.io/devcontainers/features/desktop-lite:1": {
-			
 		}
 	}
 
