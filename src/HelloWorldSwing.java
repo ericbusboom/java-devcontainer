@@ -1,4 +1,3 @@
-package net.javaguides.javaswing.examples;
 
 import java.awt.Color;
 import java.awt.Dimension;
