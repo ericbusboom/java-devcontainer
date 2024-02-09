@@ -13,11 +13,12 @@
 			"installGradle": "false"
 		},
 		"ghcr.io/devcontainers/features/desktop-lite:1": {
+			"password" : "code4life"
 		}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"forwardPorts": [6080, 5901],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "java -version",
